@@ -2,20 +2,20 @@
     <head><title>Form</title></head>
     <body>
         <h1 style="font-family: monospace;">Form</h1>
-        <form style="border: 1px solid;">
+        <form style="border: 1px solid;" action="akses.php" method="POST">
             <pre>
-                <label>Nama Lengkap                             :<input type="text" style="width: 300;"></label><br>
-                <label>NIM                                      :<input type="text"></label><br>
-                <label>Kelas                                    :<select>
-                    <option>A</option>
-                    <option>B</option>
-                    <option>C</option>
+                <label for="nama">Nama Lengkap                             :<input type="text" style="width: 300;" name="nama"></label><br>
+                <label for="nim">NIM                                      :<input type="text" name="nim"></label><br>
+                <label for="kelas">Kelas                                    :<select name="kelas">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
                 </select> </label><br>
-                <label>Jenis kelamin                            :<input type="radio">Laki-Laki <input type="radio">Perempuan</label><br>
-                <label>Motivasi masuk jurusan Teknik informatika:
-                                                          <textarea style="width: 200;height: 100;"></textarea>
+                <label for="jk">Jenis kelamin                            :<input type="radio" name="jk" value="Laki-Laki">Laki-Laki <input type="radio" name="jk" value="Perempuan">Perempuan</label><br>
+                <label for="motivasi">Motivasi masuk jurusan Teknik informatika:
+                                                          <textarea style="width: 200;height: 100;" name="motivasi"></textarea>
                 </label><br>
-                                                          <input type="button" value="Submit">
+                                                          <input type="submit">
             </pre>
         </form>
 
