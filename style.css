@@ -1,0 +1,50 @@
+.con{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+
+}
+.konten{
+    padding: 50px;
+    margin: auto;
+    height: auto;
+    min-height: 1px;
+    background-color: #bdc3c7;
+    border-radius: 25px;
+    color: white;
+    opacity: 98%;
+    box-shadow: 3px 3px 10px grey;
+}
+.kepala{
+	width: 500px;
+    margin: auto;
+    padding: 8px;
+    background-color: #bdc3c7;
+    text-align: center;
+    border-radius:20px;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+    opacity: 98%;
+}
+.pisah{
+	width: 500px;
+    height: 20px;
+}
+.tombol{
+	border: none;
+	width: 100px;
+	height: 39px;
+	padding: 10px;
+	background-color: #2c3e50;
+	border-radius: 7px;
+	color: white;
+    text-decoration: none;
+}
+.tombol:hover{
+	box-shadow: 5px 5px 20px grey;
+	background-color: #34495e;
+}
+body{
+	background-image: url("bg.jpg");
+    background-size: 100% 280%;
+}
