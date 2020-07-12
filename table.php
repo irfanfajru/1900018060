@@ -60,7 +60,7 @@
 		<input type="submit" name="reset" class="tombol" value="Reset">
 	</form>
 	<br><br>
-	<a href="index.html" class="tombol">Kembali</a>
+	<a href="index.php" class="tombol">Kembali</a>
 </div>
 </div>
 </body>
