@@ -22,7 +22,7 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td><?php echo "<h1>$n</h1>"; ?><br><br></td>
+					<td><?php echo "<h1>$n</h1>";fclose($myfile);?><br><br></td>
 				</tr>
 				<tr>
 					<td><a href="form.html" class="tombol">Daftar</a></td>
